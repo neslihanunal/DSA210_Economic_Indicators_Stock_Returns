@@ -3,7 +3,7 @@
 I am Neslihan Ünal, a sophomore at Sabancı University majoring in Computer Science and pursuing a double major in Economics. My goal in this project is to analyze how macroeconomic indicators (such as GDP, unemployment, interest rates) impact stock returns.
 
 ---
-M## Contents
+## Contents
 - [Motivation](#motivation)
 - [Project Goals](#project-goals)
 - [Hypotheses](#hypotheses)
