@@ -130,16 +130,22 @@ The main goals of this project include:
 ```bash
 DSA210_Economic_Indicators_Stock_Returns/
 │
-├── data/
-│   ├── raw/           # original raw datasets
-│   └── processed/      # cleaned, ready-to-analyze datasets
+├── data/                 # Store datasets
+│   ├── raw/              # Original data (from Yahoo Finance, FRED, etc.)
+│   ├── processed/        # Cleaned, transformed datasets
 │
-├── scripts/
+├── scripts/              # Python scripts or notebooks for analysis
+│   ├── data_collection.py
 │   ├── preprocessing.py
 │   ├── exploratory_analysis.ipynb
-│   └── predictive_modeling.ipynb
+│   ├── regression_model.ipynb
 │
-├── visualizations/    # Visual outputs and figures
-├── requirements.txt   # Python dependencies
-└── README.md          # Project details clearly documented
-
+├── visualizations/       # Graphs, plots, and analysis images
+│
+├── reports/              # Summary reports, if needed
+│   ├── findings.md       # Summary of findings
+│   ├── conclusions.md    # Final report
+│
+├── README.md             # Project documentation
+├── .gitignore            # Ignore unnecessary files
+└── requirements.txt      # Python dependencies
